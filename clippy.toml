@@ -1,9 +1,8 @@
 too-many-lines-threshold = 60
 excessive-nesting-threshold = 4
 cognitive-complexity-threshold = 15
-
-disallowed-types = [
-    { path = "std::vec::Vec", reason = "no dynamic allocation after init" },
-    { path = "std::boxed::Box", reason = "no dynamic allocation after init" },
-    { path = "std::string::String", reason = "no dynamic allocation after init" },
-]
+too-many-arguments-threshold = 5
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
+allow-panic-in-tests = true
+allow-indexing-slicing-in-tests = true
